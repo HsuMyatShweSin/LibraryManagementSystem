@@ -1,0 +1,20 @@
+from enum import Enum
+
+class Genre(Enum):
+    FICTION = "Fiction"
+    NON_FICTION = "Non-Fiction"
+    SCIENCE = "Science"
+    HISTORY = "History"
+    BIOGRAPHY = "Biography"
+    MYSTERY = "Mystery"
+    ROMANCE = "Romance"
+    FANTASY = "Fantasy"
+    HORROR = "Horror"
+    POETRY = "Poetry"
+    NARRATIVE = "Narrative"
+    LITERATURE = "Literature"
+    COMICS = "Comics"
+    TEXTBOOK = "Textbook"
+    HUMOUR = "Humour"
+    NOVEL = "Novel"
+    CLASSIC = "Classic"
